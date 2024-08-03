@@ -25,6 +25,11 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
 
+      - name: Create .env file
+        run: |
+          echo "DEMO_USER=${{ secrets.DEMO_USER }}" >> .env
+          echo "PASSWORD=${{ secrets.PASSWORD }}" >> .env
+
       - name: Run Playwright tests
         run: npx playwright test
 

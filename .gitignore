@@ -1,0 +1,16 @@
+node_modules/
+/test-results/
+/playwright-report/
+/test-results/
+/blob-report/
+/playwright/.cache/
+/playwright./auth/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/.env
